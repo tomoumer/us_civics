@@ -1,6 +1,5 @@
-import streamlit as st
-import random
-import json
-from thefuzz import fuzz
-from thefuzz import process
-from pathlib import Path
+streamlit
+random
+json
+thefuzz
+pathlib
