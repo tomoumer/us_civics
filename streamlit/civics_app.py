@@ -60,10 +60,11 @@ def check_answer():
         update_stage(12)
 
     # similar but for 3 answers
-    elif 'Name three ' in st.session_state.current_question:
-        if st.session_state.stage == 12:
+    elif ('Name three ' in st.session_state.current_question
+          and st.session_state.stage == 12):
             update_stage(13)
-        elif st.session_state.stage == 1:
+    elif ('Name three ' in st.session_state.current_question
+          and st.session_state.stage == 1):
             update_stage(12)
 
     else:
